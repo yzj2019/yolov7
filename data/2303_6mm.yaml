@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: D:/Yzj/Datasets/guangzhou_2303/guangzhou_2303_6mm/train.txt
+val: D:/Yzj/Datasets/guangzhou_2303/guangzhou_2303_6mm/val.txt
+test: D:/Yzj/Datasets/guangzhou_2303/guangzhou_2303_6mm/test.txt
+
+# number of classes
+nc: 4
+
+# class names
+names: [ 'ycrane', 'forklift', 'wcrane', 'car' ]

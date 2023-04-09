@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: D:/Yzj/Datasets/power_system_detection/yolo_version/train.txt
+val: D:/Yzj/Datasets/power_system_detection/yolo_version/val.txt
+test: D:/Yzj/Datasets/power_system_detection/yolo_version/test.txt
+
+# number of classes
+nc: 4
+
+# class names
+names: [ 'crane', 'bulldozer', 'excavator', 'truck' ]
