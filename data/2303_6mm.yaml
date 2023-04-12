@@ -4,7 +4,7 @@ val: D:/Yzj/Datasets/guangzhou_2303/guangzhou_2303_6mm/val.txt
 test: D:/Yzj/Datasets/guangzhou_2303/guangzhou_2303_6mm/test.txt
 
 # number of classes
-nc: 4
+nc: 5
 
 # class names
-names: [ 'ycrane', 'forklift', 'wcrane', 'car' ]
+names: [ 'ycrane', 'forklift', 'wcrane', 'car', 'crane arm']
